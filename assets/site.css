@@ -37,10 +37,6 @@ footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);f
 align-items:center;justify-content:space-between;flex-wrap:wrap}.contact p{margin:4px 0 0;color:var(--muted)}
 .btn.big{padding:10px 20px;font-size:15px;overflow-wrap:anywhere}
 footer .legal{margin-top:8px;font-size:12.5px}footer a{color:var(--muted)}
-.brand{display:inline-flex;align-items:center;gap:11px;color:#fff;text-decoration:none}
-.brand .mark{flex:none;display:block;border-radius:12px;box-shadow:0 4px 14px rgba(0,120,255,.35)}
-.brand .word{font-weight:800;font-size:21px;letter-spacing:-.02em;line-height:1;white-space:nowrap}
-.brand .lab{display:inline-block;margin-left:8px;padding:3px 7px 2px;border-radius:6px;font-size:11px;font-weight:800;
-letter-spacing:.16em;vertical-align:3px;color:#8fe8ff;background:rgba(0,198,251,.14);border:1px solid rgba(143,232,255,.4)}
-@media (max-width:480px){.brand{gap:9px}.brand .mark{width:34px;height:34px;border-radius:10px}.brand .word{font-size:18px}
-.brand .lab{font-size:10px;margin-left:6px}}
+.brand{display:inline-block;line-height:0}
+.brand img{height:48px;width:auto;display:block}
+@media (max-width:480px){.brand img{height:38px}}
