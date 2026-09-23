@@ -18,6 +18,10 @@ header.top{background:linear-gradient(135deg,var(--hero1),var(--hero2));color:#f
 .card .head{display:flex;gap:14px;align-items:center}.card img.ic{width:64px;height:64px;border-radius:16px}
 .card h3{margin:0;font-size:19px}.card p{margin:0;color:var(--muted)}
 .links{display:flex;gap:10px;flex-wrap:wrap;margin-top:auto;padding-top:6px}
+.shots{display:flex;gap:10px;overflow-x:auto;padding:2px 0 6px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.shots img{flex:0 0 auto;width:132px;height:auto;border-radius:12px;border:1px solid var(--line);scroll-snap-align:start;background:var(--surface)}
+.shots::-webkit-scrollbar{height:6px}.shots::-webkit-scrollbar-thumb{background:var(--line);border-radius:3px}
+.card .about{color:var(--muted);font-size:14.5px;line-height:1.55}
 .btn{display:inline-block;padding:8px 16px;border-radius:999px;background:var(--chip);color:var(--brand);text-decoration:none;font-weight:600;font-size:14px}
 .btn.solid{background:var(--brand);color:#fff}
 @media (prefers-color-scheme:dark){:root:not([data-theme=light]) .btn.solid{color:#04121f}}
